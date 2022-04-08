@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2021_07_21_171127) do
 
   create_table "companies", force: :cascade do |t|
     t.string "name"
-    t.integer "founding_year"
+    t.string "founding_year"
   end
 
   create_table "devs", force: :cascade do |t|
@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2021_07_21_171127) do
   create_table "freebies", force: :cascade do |t|
     t.string "item_name"
     t.integer "value"
-    t.integer "company_id"
+    t.datetime "company_id"
     t.integer "dev_id"
   end
 

@@ -2,7 +2,7 @@ puts "Creating companies..."
 c1 = Company.create(name: "Google", founding_year: 1998)
 c2 = Company.create(name: "Facebook", founding_year: 2004)
 c3 = Company.create(name: "Dunder Mifflin", founding_year: 2002)
-c4 = Company.create(name: "Enron", founding_year: 1995)
+c4 = Company.create(name: "Enron", item_name: 1995)
 
 puts "Creating devs..."
 d1 = Dev.create(name: "Rick")
